@@ -8,7 +8,6 @@ void main() {
 
 void removeDups(List<int> li) {
   for (int i = 0; i < li.length - 1; i++) {
-    List<int> rl = [];
     for (int j = i + 1; j < li.length; j++) {
       if (li[j] == li[i]) {
         li.removeAt(j);

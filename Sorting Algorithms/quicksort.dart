@@ -5,6 +5,14 @@ Quick sort is a divide-and-conquer algorithm. It works by selecting a 'pivot' el
  than the pivot. 
  pivot- The pivot divides the array into two parts, helping reduce the problem size in each 
  recursive call.
+ Time Complexity:
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n²)
+
+Space Complexity: O(log n)
+Worst Case Space Complexity: O(n)
  */
 void quicksort(List<int> l, int low, int high) {
   if (low < high) {
